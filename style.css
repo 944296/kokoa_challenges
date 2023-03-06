@@ -1,0 +1,38 @@
+body {
+  background-color: lightgray;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.in{
+  font-weight: 600;
+  background-color: white;
+  padding: 10px 0px;
+  position: relative;
+  top: 20px
+}
+#one,
+#two {
+  display: flex;
+  justify-content: center;
+}
+.out_box {
+  width: 200px;
+  height: 300px;
+  margin: 20px 20px;
+  border: 5px solid white;
+}
+.out_box:first-child{
+  background-color: tomato;
+}
+.out_box:last-child{
+  background-color: teal;
+}
+#two .out_box:first-child{
+  background-color: burlywood;
+}
+#two .out_box:last-child{
+  background-color: thistle;
+}
